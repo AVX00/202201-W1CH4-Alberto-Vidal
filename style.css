@@ -59,6 +59,11 @@
   min-width: fit-content;
 }
 
+.separator {
+  border-bottom: 1px solid #f0f0f088;
+  margin: 0 2rem;
+}
+
 .cross-icon {
   right: 0;
   position: absolute;
