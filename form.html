@@ -14,7 +14,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Lista</title>
+    <title>Add element</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -36,26 +36,24 @@
           <div class="fa plus-icon col"></div>
           <div class="content-header__text col">2/3 comprados</div>
         </header>
-        <div class="row">
-          <ul class="list-unstyled">
-            <li><div class="main__items"><input type="checkbox"> <div
-                  class="text-decoration-line-through">Pan</div> <i
-                  class="cross-icon fas
-                  fa-times"></i></div> </li>
-            <li><div class="main__items"><input type="checkbox"> Azúcar
-                <i
-                  class="cross-icon fas
-                  fa-times"></i></div> </li>
-            <li><div class="main__items"><input type="checkbox"> <div
-                  class="text-decoration-line-through">Leche</div> <i
-                  class="cross-icon fas
-                  fa-times"></i> </div> </li>
-          </ul>
-          <div class="separator align-"></div>
-        </div>
-        <div class="row price">
-          <div class="col"></div>
-          <div class="price__text col">1.95</div>
+        <div class="form container">
+          <h2 class="row">Editar artículo</h2>
+          <form action="post">
+
+            <div class="input-name row">
+              <label class="row" for="name">Nombre:</label>
+              <input class="col-4" type="text" id="name">
+            </div>
+            <div class="input-precio row">
+              <label class="row" for="price">Precio:</label>
+              <input class="col-4 input-precio__input" type="text" id="price">
+              <div class="input-precio__euro col"></div>
+            </div>
+            <div class="form-button row">
+              <input class="btn btn-primary col-2" type="submit" value="Submit">
+            </div>
+
+          </form>
         </div>
       </main>
     </div>
