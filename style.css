@@ -24,6 +24,8 @@
 }
 .content-header {
   background-color: var(--bg-content-header);
+  min-height: 2rem;
+  margin-bottom: 1rem;
 }
 .main {
 }
@@ -52,6 +54,10 @@
 .price__text {
   flex: 0;
 }
+.content-header__text {
+  flex: 0;
+  min-width: fit-content;
+}
 
 .cross-icon {
   right: 0;
@@ -73,7 +79,7 @@
 }
 
 .burger-menu:hover > .main-header__menu {
-  display: inline-block;
+  display: block;
   position: absolute;
   list-style-type: disc;
   right: 0;
