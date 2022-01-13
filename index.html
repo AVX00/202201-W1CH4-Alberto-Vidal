@@ -11,9 +11,33 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Lista</title>
   </head>
   <body>
-
+    <div class="container">
+      <header class="row main-header">
+        <h1 class="col main-header__title">Lista de la compra</h1>
+        <nav class="col main-header__menu">
+          <a href="" class="navigation-button">Principal</a>
+          <a href="" class="navigation-button">Lista</a>
+          <a href="" class="navigation-button">Acerca de</a>
+        </nav>
+      </header>
+      <main class="row main">
+        <header class="row plus-icon content-header">
+          <p>2/3 comprados</p>
+        </header>
+        <div class="col">
+          <ul>
+            <li><input type="checkbox" class="main__items"> Pan</li>
+            <li><input type="checkbox" class="main__items"> Azúcar</li>
+            <li><input type="checkbox" class="main__items"> Leche</li>
+          </ul>
+        </div>
+        <div class="row price">
+          <p>1.95</p>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
