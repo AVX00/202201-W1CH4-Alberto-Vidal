@@ -18,7 +18,7 @@
 
 .col {
 }
-.container {
+.container-fluid {
   background-color: var(--bg-content);
   height: 100vh;
 }
@@ -31,6 +31,7 @@
   background-color: var(--bg-main-header);
 }
 .main-header__menu {
+  display: none;
   max-width: fit-content;
 }
 .main-header__title {
@@ -56,4 +57,17 @@
   right: 0;
   position: absolute;
   transform: translateY(50%);
+}
+
+.burger-menu {
+  flex: 0;
+  margin-top: 5px;
+}
+
+.burger-menu__part {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: #0f0f0fcc;
+  margin-bottom: 0.3rem;
+  display: block;
 }
