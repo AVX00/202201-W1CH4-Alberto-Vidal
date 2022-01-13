@@ -1,0 +1,32 @@
+:root {
+  --bg-main-header: #5e81d1;
+  --bg-content-header: #f87500;
+  --bg-content: #ff8d27;
+}
+.col {
+}
+.container {
+  background-color: var(--bg-content);
+}
+.content-header {
+  background-color: var(--bg-content-header);
+}
+.main {
+}
+.main-header {
+  background-color: var(--bg-main-header);
+}
+.main-header__menu {
+}
+.main-header__title {
+}
+.main__items {
+}
+.navigation-button {
+}
+.plus-icon {
+}
+.price {
+}
+.row {
+}
