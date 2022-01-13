@@ -60,8 +60,8 @@
 }
 
 .burger-menu {
-  flex: 0;
   margin-top: 5px;
+  flex: 0;
 }
 
 .burger-menu__part {
@@ -70,4 +70,12 @@
   background-color: #0f0f0fcc;
   margin-bottom: 0.3rem;
   display: block;
+}
+
+.burger-menu:hover > .main-header__menu {
+  display: inline-block;
+  position: absolute;
+  list-style-type: disc;
+  right: 0;
+  background-color: #666;
 }
