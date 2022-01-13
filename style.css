@@ -1,0 +1,59 @@
+:root {
+  --bg-main-header: #5e81d1;
+  --bg-content-header: #f87500;
+  --bg-content: #ff8d27;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+.no-decoration:visited {
+  color: inherit;
+}
+
+.text-decoration-line-through {
+  display: inline;
+}
+
+.col {
+}
+.container {
+  background-color: var(--bg-content);
+  height: 100vh;
+}
+.content-header {
+  background-color: var(--bg-content-header);
+}
+.main {
+}
+.main-header {
+  background-color: var(--bg-main-header);
+}
+.main-header__menu {
+  max-width: fit-content;
+}
+.main-header__title {
+}
+.main__items {
+  width: 100%;
+  position: relative;
+}
+.navigation-button {
+}
+.plus-icon::before {
+  content: "\f055";
+}
+.price {
+}
+.row {
+}
+.price__text {
+  flex: 0;
+}
+
+.cross-icon {
+  right: 0;
+  position: absolute;
+  transform: translateY(50%);
+}
