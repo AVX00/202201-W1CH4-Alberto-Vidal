@@ -90,3 +90,15 @@
   right: 0;
   background-color: #666;
 }
+
+.input-precio__euro::after {
+  content: "€";
+}
+
+.input-precio__input {
+  float: 0;
+}
+
+.form-button {
+  margin-top: 1rem;
+}
